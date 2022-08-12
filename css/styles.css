@@ -10,45 +10,45 @@ body{
     margin: 0;
 }
 /*----------------Navigation bar------------------*/
-.container{
-    margin: 0;
+header{
+    margin: 0 auto;
     width: 100%;
     height: 50px;
-    background-color: #006E90;
+    background-color: #1b7895;
     position: fixed;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: center;
+}
+#logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 .nav-bar{
-    display: inline-block;
     width: 100%;
-    height: 50px;
 }
-.nav-bar ul{
-    width: 100%;
-    height: 50px;
+.nav-bar a{
+    color: white;
+    background: #1b7895;
+    padding: 15px 6%;
     text-align: center;
-    padding: 0;
 }
-.nav-bar ul li{
-    width: 19%;
-    height: 50px;
-    list-style: none;
-    display: inline-block;
-    color: white;
-}
-.nav-bar ul li a{
-    padding: 16.5px 19.7%;
-}
-.nav-bar ul li a:link{
+.nav-bar a:link{
     text-decoration: none;
     color: white;
 }
-.nav-bar ul li a:visited{
+.nav-bar a:visited{
     text-decoration: none;
     color: white;
 }
-.nav-bar ul li a:hover{
+.nav-bar a:hover{
     background-color: #F18F01;
 }
-.nav-bar ul li a:active{
+.nav-bar a:active{
     
 }
