@@ -1,0 +1,54 @@
+/*----------------Global styles-----------------*/
+
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+/*----------------Navigation bar------------------*/
+.container{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #006E90;
+    position: fixed;
+}
+.nav-bar{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+}
+.nav-bar ul{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 0;
+}
+.nav-bar ul li{
+    width: 19%;
+    height: 50px;
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+.nav-bar ul li a{
+    padding: 16.5px 19.7%;
+}
+.nav-bar ul li a:link{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li a:visited{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li a:hover{
+    background-color: #F18F01;
+}
+.nav-bar ul li a:active{
+    
+}
