@@ -1,5 +1,4 @@
 /*----------------Global styles-----------------*/
-
 html{
     box-sizing: border-box;
 }
@@ -8,6 +7,8 @@ html{
 }
 body{
     margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
 }
 /*----------------Navigation bar------------------*/
 header{
@@ -16,6 +17,7 @@ header{
     height: 50px;
     background-color: #1b7895;
     position: fixed;
+    font-weight: 545;
 }
 .container{
     display: flex;
@@ -51,4 +53,10 @@ header{
 }
 .nav-bar a:active{
     
+}
+/*-------------Introduction-------------*/
+.introduction{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
 }
