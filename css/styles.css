@@ -16,14 +16,7 @@ header{
     width: 100%;
     height: 50px;
     background-color: #1b7895;
-    position: fixed;
     font-weight: 545;
-}
-.container{
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto;
-    justify-content: center;
 }
 #logo img{
     width: 50px;
@@ -59,4 +52,31 @@ header{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     padding-top: 50px;
+}
+/*---------------Responsive------------*/
+@media screen and (max-width: 850px) {
+    #logo{
+        display: none;
+    }
+}
+@media screen and (min-width: 751px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-basis: auto;
+        justify-content: center;
+    }
+    header{
+        position: fixed;
+    }
+}
+@media screen and (max-width: 750px){
+    .container{
+        display: grid;
+        text-align: center;
+        font-size: small;
+    }
+    .introduction{
+        padding-top: 176px;
+    }
 }
